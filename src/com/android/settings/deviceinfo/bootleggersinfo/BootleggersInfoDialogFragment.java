@@ -135,6 +135,12 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         return builder.setView(mRootView).create();
     }
 
+    @Override
+    public void onDestroy() {
+        mUpTimeHandler.removeCallbacksAndMessages(null);
+        super.onDestroy();
+    }
+
     public void setText(int viewId, String text) {
         final TextView view = mRootView.findViewById(viewId);
         if (view != null) {

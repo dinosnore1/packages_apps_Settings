@@ -146,9 +146,9 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.external.GamingMode;
 import com.bootleggers.dumpster.fragments.PowerMenuSettings;
 import com.bootleggers.dumpster.fragments.BootlegWelcome;
-import com.bootleggers.dumpster.fragments.GamingMode;
 
 public class SettingsGateway {
 
